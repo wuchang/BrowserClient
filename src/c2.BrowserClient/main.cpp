@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 
 	win.show();
 	win.NavToHome();
-
+	win.setExitAppOnClose(true);
 	
 	return a.exec();
 }
